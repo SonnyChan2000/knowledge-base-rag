@@ -55,7 +55,7 @@ def ingest_folder(folder: Path = DATA_DIR):
     print(f"分割完成: {len(docs)}段 -> {len(chunks)}块")
 
     # 3.向量化 + 存库
-    embedding = HuggingFaceBgeEmbeddings(model_name="BAAI/bge-small-zh-v1.5")
+    embedding = HuggingFaceBgeEmbeddings(model_name="BAAI/bge-small-zh-v1.5", encode_kwargs={"normalize_embeddings": True})
     vectorstore = Chroma.from_documents(
         documents=chunks,
         embedding=embedding,
