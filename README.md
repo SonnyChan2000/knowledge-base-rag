@@ -82,7 +82,9 @@ curl -X POST http://127.0.0.1:8000/ask \
 ---
 
 ## 🖼️ 效果截图
-> 在这里放 2~3 张截图：① 入库成功日志  ② 网页问答界面  ③ 引用来源展示
+knowledge_base/assets/memory.png 
+knowledge_base/assets/qa.png 
+knowledge_base/assets/ingest.png
 
 ---
 
