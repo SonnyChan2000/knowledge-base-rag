@@ -82,9 +82,7 @@ curl -X POST http://127.0.0.1:8000/ask \
 ---
 
 ## 🖼️ 效果截图
-knowledge_base/assets/memory.png 
-knowledge_base/assets/qa.png 
-knowledge_base/assets/ingest.png
+![alt text](memory.png) ![alt text](qa.png) ![alt text](ingest.png)
 
 ---
 
